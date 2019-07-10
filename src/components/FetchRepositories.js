@@ -20,7 +20,7 @@ export default class FetchRepositories extends React.Component {
       loading: true,
     })
     fetch(
-      `https://api.github.com/users/${this.props.username}/repos?sort=pushed&access_token=797361195ad9e4aecc49952315a669183e02662d`,
+      `https://api.github.com/users/${this.props.username}/repos?sort=pushed&access_token={PRIVATE_ACCESS_TOKEN_PLEASE_FILL}`,
     )
       .then(res => res.json())
       .then(repositories => {
