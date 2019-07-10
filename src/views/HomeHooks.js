@@ -1,5 +1,5 @@
 import React from "react";
-import { SearchHistoryContext } from "../../SearchHistory";
+import { SearchHistoryContext } from "../SearchHistory";
 
 const Home = (props) => {
   

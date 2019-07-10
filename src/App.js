@@ -9,9 +9,6 @@ import RepositoryList from './views/RepositoryList'
 // import Home from './views/HomeHooks';
 // import RepositoryList from "./views/RepositoryListHooks";
 
-// const RepositoryList = React.lazy(() => import("./views/RepositoryListHooks"));
-// const HomeView = React.lazy(() => import("./views/HomeHooks"));
-
 // wrap <React.StrictMode>
 
 function App() {

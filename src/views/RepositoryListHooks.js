@@ -1,6 +1,6 @@
 import React from "react";
-import useFetchRepositories from "../../components/FetchRepositoriesHooks";
-import Spinner from "../../components/Spinner";
+import useFetchRepositories from "../components/FetchRepositoriesHooks";
+import Spinner from "../components/Spinner";
 
 const Repository = ({ repository }) => {
   return (
